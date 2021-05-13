@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZXAmountEvaluateRefItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="152" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="152" height="102"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3g8-lL-HwZ" userLabel="contentview">
+                        <rect key="frame" x="0.0" y="0.0" width="152" height="102"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_amountAvaluate_ali" translatesAutoresizingMaskIntoConstraints="NO" id="HHR-ei-xHF">
+                                <rect key="frame" x="25.5" y="20" width="16" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="fUU-2c-sdx"/>
+                                    <constraint firstAttribute="width" constant="16" id="j7h-oR-GMq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="芝麻信用分" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgr-kE-ush">
+                                <rect key="frame" x="50.5" y="21" width="75" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="3gj-lD-kp6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="15"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb0-mp-5cl">
+                                <rect key="frame" x="26" y="54" width="100" height="28"/>
+                                <color key="backgroundColor" red="0.23529411759999999" green="0.4549019608" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="mA7-mq-m6z"/>
+                                    <constraint firstAttribute="height" constant="28" id="qee-gy-TMM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="12"/>
+                                <state key="normal" title="立即上传">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bb0-mp-5cl" firstAttribute="centerX" secondItem="3g8-lL-HwZ" secondAttribute="centerX" id="Ere-E5-hRA"/>
+                            <constraint firstItem="Kgr-kE-ush" firstAttribute="leading" secondItem="HHR-ei-xHF" secondAttribute="trailing" constant="9" id="Fzj-ge-OXu"/>
+                            <constraint firstItem="Kgr-kE-ush" firstAttribute="centerX" secondItem="3g8-lL-HwZ" secondAttribute="centerX" constant="12" id="GBb-Ft-lvL"/>
+                            <constraint firstItem="Kgr-kE-ush" firstAttribute="top" secondItem="3g8-lL-HwZ" secondAttribute="top" constant="21" id="Kab-Jg-XVe"/>
+                            <constraint firstItem="Kgr-kE-ush" firstAttribute="centerY" secondItem="HHR-ei-xHF" secondAttribute="centerY" id="t8X-zG-zaS"/>
+                            <constraint firstAttribute="bottom" secondItem="Bb0-mp-5cl" secondAttribute="bottom" constant="20" id="wxb-Xa-avp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3g8-lL-HwZ" secondAttribute="bottom" id="B91-xv-ehl"/>
+                <constraint firstItem="3g8-lL-HwZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EZt-Oc-3iZ"/>
+                <constraint firstAttribute="trailing" secondItem="3g8-lL-HwZ" secondAttribute="trailing" id="JM7-9w-2fw"/>
+                <constraint firstItem="3g8-lL-HwZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bsa-cu-EjW"/>
+            </constraints>
+            <connections>
+                <outlet property="contentview" destination="3g8-lL-HwZ" id="iSZ-BR-TCu"/>
+                <outlet property="imgView" destination="HHR-ei-xHF" id="aw7-xG-rXN"/>
+                <outlet property="titleLab" destination="Kgr-kE-ush" id="fCK-hx-IWV"/>
+                <outlet property="uploadBtn" destination="Bb0-mp-5cl" id="Pj5-3T-brK"/>
+            </connections>
+            <point key="canvasLocation" x="-17.39130434782609" y="88.392857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_amountAvaluate_ali" width="16" height="18"/>
+    </resources>
+</document>

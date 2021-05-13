@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZXMallRechargeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vM7-lu-L8p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="204"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBr-b7-6h4">
+                                <rect key="frame" x="16" y="8" width="343" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RYX-jF-znd">
+                                <rect key="frame" x="16" y="8" width="343" height="185"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="特色充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sT5-Xw-F6C">
+                                        <rect key="frame" x="16" y="16" width="68" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="Kdk-oQ-bBY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="17"/>
+                                        <color key="textColor" red="0.23529411759999999" green="0.27450980390000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J9i-cf-nI7">
+                                        <rect key="frame" x="0.0" y="50" width="343" height="135"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="J9i-cf-nI7" secondAttribute="trailing" id="B9L-jd-TcR"/>
+                                    <constraint firstAttribute="bottom" secondItem="J9i-cf-nI7" secondAttribute="bottom" id="C1m-QR-ZTV"/>
+                                    <constraint firstAttribute="height" constant="185" id="IlL-nd-VKt"/>
+                                    <constraint firstItem="J9i-cf-nI7" firstAttribute="leading" secondItem="RYX-jF-znd" secondAttribute="leading" id="NuT-gB-XlK"/>
+                                    <constraint firstItem="J9i-cf-nI7" firstAttribute="top" secondItem="sT5-Xw-F6C" secondAttribute="bottom" constant="16" id="mqs-GM-acs"/>
+                                    <constraint firstItem="sT5-Xw-F6C" firstAttribute="leading" secondItem="RYX-jF-znd" secondAttribute="leading" constant="16" id="qjD-dG-cK2"/>
+                                    <constraint firstItem="sT5-Xw-F6C" firstAttribute="top" secondItem="RYX-jF-znd" secondAttribute="top" constant="16" id="sAK-Qb-7Bi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="trailing" secondItem="hBr-b7-6h4" secondAttribute="trailing" id="35b-OX-U8e"/>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="leading" secondItem="vM7-lu-L8p" secondAttribute="leading" constant="16" id="8In-O1-hKY"/>
+                            <constraint firstAttribute="trailing" secondItem="RYX-jF-znd" secondAttribute="trailing" constant="16" id="Zk4-sr-oge"/>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="top" secondItem="vM7-lu-L8p" secondAttribute="top" constant="8" id="dEs-h0-gXf"/>
+                            <constraint firstAttribute="bottom" secondItem="RYX-jF-znd" secondAttribute="bottom" constant="11" id="dIY-lS-Q4P"/>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="bottom" secondItem="hBr-b7-6h4" secondAttribute="bottom" id="efk-QC-bzI"/>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="top" secondItem="hBr-b7-6h4" secondAttribute="top" id="snj-0v-NrG"/>
+                            <constraint firstItem="RYX-jF-znd" firstAttribute="leading" secondItem="hBr-b7-6h4" secondAttribute="leading" id="w8J-pq-zfQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstItem="vM7-lu-L8p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="11r-te-Gn5"/>
+                <constraint firstAttribute="bottom" secondItem="vM7-lu-L8p" secondAttribute="bottom" id="I35-ui-48j"/>
+                <constraint firstItem="vM7-lu-L8p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jj1-L0-NFm"/>
+                <constraint firstAttribute="trailing" secondItem="vM7-lu-L8p" secondAttribute="trailing" id="wNo-jt-EbW"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="RYX-jF-znd" id="4rE-cI-NwL"/>
+                <outlet property="itemContainerView" destination="J9i-cf-nI7" id="v07-Ss-lbr"/>
+                <outlet property="shadowView" destination="hBr-b7-6h4" id="NUP-wS-Ahx"/>
+            </connections>
+            <point key="canvasLocation" x="-319" y="32"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

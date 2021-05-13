@@ -1,0 +1,257 @@
+PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AlicloudRPSDK (3.6.0)
+  - AlicloudSecurityGuardSDK (5.4.193)
+  - AlicloudSGMain (5.4.193):
+    - AlicloudSecurityGuardSDK (= 5.4.193)
+  - AlicloudSGSecurityBody (5.4.12987657-rp):
+    - AlicloudSecurityGuardSDK (= 5.4.193)
+    - AlicloudSGMain (= 5.4.193)
+  - AliyunOSSiOS (2.10.8)
+  - BaiduMobStatCodeless (5.2.7)
+  - Bugly (2.5.71)
+  - Bugtags (3.2.3):
+    - Bugtags/Core (= 3.2.3)
+  - Bugtags/Core (3.2.3)
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - CRBoxInputView (1.1.7):
+    - Masonry
+  - EasyShowView (2.1.4):
+    - EasyShowView/EasyAlert (= 2.1.4)
+    - EasyShowView/EasyEmpty (= 2.1.4)
+    - EasyShowView/EasyLoading (= 2.1.4)
+    - EasyShowView/EasyShowUtils (= 2.1.4)
+    - EasyShowView/EasyText (= 2.1.4)
+  - EasyShowView/EasyAlert (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyEmpty (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyLoading (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyShowUtils (2.1.4)
+  - EasyShowView/EasyText (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - IQKeyboardManager (6.5.6)
+  - JCore (2.4.0-noidfa)
+  - JPush (3.3.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JXCategoryView (1.5.8)
+  - JXPagingView/Pager (2.0.13)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT (= 0.4.1)
+    - libextobjc/EXTConcreteProtocol (= 0.4.1)
+    - libextobjc/EXTKeyPathCoding (= 0.4.1)
+    - libextobjc/EXTNil (= 0.4.1)
+    - libextobjc/EXTSafeCategory (= 0.4.1)
+    - libextobjc/EXTScope (= 0.4.1)
+    - libextobjc/EXTSelectorChecking (= 0.4.1)
+    - libextobjc/EXTSynthesize (= 0.4.1)
+    - "libextobjc/NSInvocation+EXT (= 0.4.1)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.4.1)"
+    - libextobjc/RuntimeExtensions (= 0.4.1)
+    - libextobjc/UmbrellaHeader (= 0.4.1)
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.4.1)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - MSWeakTimer (1.1.0)
+  - SAMKeychain (1.5.3)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - TPKeyboardAvoiding (1.3.5)
+  - TYCyclePagerView (1.2.0)
+  - "UITextView+Placeholder (1.4.0)"
+  - UMCCommon (7.2.4)
+  - UMCShare/Core (6.10.1):
+    - UMCCommon
+  - UMCShare/Social/ReducedSina (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/Sina (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedSina
+  - UMCShare/Social/WeChat (6.10.1):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking/NSURLSession (= 3.2.1)
+  - AFNetworking/Reachability (= 3.2.1)
+  - AFNetworking/Security (= 3.2.1)
+  - AFNetworking/Serialization (= 3.2.1)
+  - AlicloudRPSDK (= 3.6.0)
+  - AlicloudSGSecurityBody (= 5.4.12987657-rp)
+  - AliyunOSSiOS (= 2.10.8)
+  - BaiduMobStatCodeless
+  - Bugly (~> 2.5.71)
+  - Bugtags
+  - CocoaLumberjack (~> 3.6.2)
+  - CRBoxInputView (= 1.1.7)
+  - EasyShowView
+  - IQKeyboardManager
+  - JCore (= 2.4.0-noidfa)
+  - JPush (~> 3.3.6)
+  - JXCategoryView
+  - JXPagingView/Pager
+  - libextobjc (~> 0.4.1)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MMWormhole (~> 2.0.0)
+  - MSWeakTimer
+  - SAMKeychain
+  - SDCycleScrollView
+  - TPKeyboardAvoiding
+  - TYCyclePagerView (~> 1.2.0)
+  - "UITextView+Placeholder"
+  - UMCCommon
+  - UMCShare/Social/Sina
+  - UMCShare/Social/WeChat
+  - YBImageBrowser
+  - YYCategories
+  - YYImage (from `https://github.com/QiuYeHong90/YYImage.git`)
+  - YYModel
+  - YYText
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudRPSDK
+    - AlicloudSecurityGuardSDK
+    - AlicloudSGMain
+    - AlicloudSGSecurityBody
+  trunk:
+    - AFNetworking
+    - AliyunOSSiOS
+    - BaiduMobStatCodeless
+    - Bugly
+    - Bugtags
+    - CocoaLumberjack
+    - CRBoxInputView
+    - EasyShowView
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - JXCategoryView
+    - JXPagingView
+    - libextobjc
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - MMWormhole
+    - MSWeakTimer
+    - SAMKeychain
+    - SDCycleScrollView
+    - SDWebImage
+    - TPKeyboardAvoiding
+    - TYCyclePagerView
+    - "UITextView+Placeholder"
+    - UMCCommon
+    - UMCShare
+    - YBImageBrowser
+    - YYCategories
+    - YYModel
+    - YYText
+
+EXTERNAL SOURCES:
+  YYImage:
+    :git: https://github.com/QiuYeHong90/YYImage.git
+
+CHECKOUT OPTIONS:
+  YYImage:
+    :commit: 4164acb76e8979c0612530bd874e099a1fa51e9d
+    :git: https://github.com/QiuYeHong90/YYImage.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AlicloudRPSDK: 835d55e9165567260d67e4ec89335c3d3899a0d0
+  AlicloudSecurityGuardSDK: cb73895dc44e304d6dc904653b98919de6057709
+  AlicloudSGMain: ad7fe9a29c92d4805f9aa65b03338dd16d5a3588
+  AlicloudSGSecurityBody: e76e2fe51ee796d30bdb3a9d6c30b3736aa90e0c
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  BaiduMobStatCodeless: 09c3738fd435a6c13c248f39aa0f15d3f5ee7daa
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  Bugtags: 7eca28adc91cd3d718e346a0f2eb37b697251cbb
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  CRBoxInputView: 72b35e2f3df36739a444eadefc9ef0dbf1fe576e
+  EasyShowView: ec832e175d5926baef413e2dc095fb4ec5c3add4
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JCore: 9352ab113845da41bee2af9ad623ea2b4b6d9757
+  JPush: a401b946dcc76b37335422487201bc1ecc8dd296
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  UMCCommon: a63a8b55331af31872a7bf17908ce47f48973c7f
+  UMCShare: 0846449c689e8bf6793a941b97f51f9afff927ef
+  YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 20ec986d18a8d0ad421619d166a9e628097e2433
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 04a51a59c76b6db2671b1daf68e9fbd77c14838a
+
+COCOAPODS: 1.10.1

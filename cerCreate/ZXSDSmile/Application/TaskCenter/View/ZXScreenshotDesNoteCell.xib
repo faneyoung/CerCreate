@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZXScreenshotDesNoteCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uy7-jK-IP2">
+                        <rect key="frame" x="0.0" y="8" width="375" height="44"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_home_note" translatesAutoresizingMaskIntoConstraints="NO" id="z2T-Te-tNh">
+                                <rect key="frame" x="20" y="15" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="Nmd-87-re0"/>
+                                    <constraint firstAttribute="width" constant="14" id="sBD-Gv-IjR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如需享受工资预支服务。请立即完成认证" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-DM-Cwl">
+                                <rect key="frame" x="46" y="12" width="269" height="20"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="12"/>
+                                <color key="textColor" red="0.23529411759999999" green="0.27450980390000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svd-e5-h2w">
+                                <rect key="frame" x="325" y="0.0" width="42" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="3oG-Lq-xEa"/>
+                                    <constraint firstAttribute="width" constant="42" id="Fys-QZ-vaV"/>
+                                </constraints>
+                                <state key="normal" image="icon_home_note_close"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Svd-e5-h2w" firstAttribute="top" secondItem="uy7-jK-IP2" secondAttribute="top" id="9Ub-5q-zpf"/>
+                            <constraint firstAttribute="trailing" secondItem="Svd-e5-h2w" secondAttribute="trailing" constant="8" id="D6g-UM-mL3"/>
+                            <constraint firstItem="AeW-DM-Cwl" firstAttribute="leading" secondItem="z2T-Te-tNh" secondAttribute="trailing" constant="12" id="Uzi-MU-jaZ"/>
+                            <constraint firstItem="z2T-Te-tNh" firstAttribute="centerY" secondItem="Svd-e5-h2w" secondAttribute="centerY" id="mTm-Gz-pWZ"/>
+                            <constraint firstItem="z2T-Te-tNh" firstAttribute="leading" secondItem="uy7-jK-IP2" secondAttribute="leading" constant="20" id="pt1-hO-V2b"/>
+                            <constraint firstAttribute="bottom" secondItem="AeW-DM-Cwl" secondAttribute="bottom" constant="12" id="rrD-Gx-Bgq"/>
+                            <constraint firstItem="AeW-DM-Cwl" firstAttribute="top" secondItem="uy7-jK-IP2" secondAttribute="top" constant="12" id="wIJ-5H-PPH"/>
+                            <constraint firstItem="Svd-e5-h2w" firstAttribute="leading" secondItem="AeW-DM-Cwl" secondAttribute="trailing" constant="10" id="z0T-3q-Kmk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="uy7-jK-IP2" secondAttribute="trailing" id="ClE-yg-ixS"/>
+                    <constraint firstAttribute="bottom" secondItem="uy7-jK-IP2" secondAttribute="bottom" constant="8" id="KEz-eb-9oh"/>
+                    <constraint firstItem="uy7-jK-IP2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="XkZ-zd-Rtm"/>
+                    <constraint firstItem="uy7-jK-IP2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ogi-WT-xe7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="-12" y="90"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_home_note" width="14" height="14"/>
+        <image name="icon_home_note_close" width="10" height="10"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

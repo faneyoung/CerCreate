@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZXMallTopBannerCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cFB-sr-xRc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pe3-RR-pAg">
+                                <rect key="frame" x="16" y="16" width="343" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_placeholer" translatesAutoresizingMaskIntoConstraints="NO" id="CP0-Ze-Axs">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="128"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ael-Jm-aUi">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="128"/>
+                                        <connections>
+                                            <action selector="senderimageViewAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="WMo-Kt-p5X"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="CP0-Ze-Axs" firstAttribute="top" secondItem="Pe3-RR-pAg" secondAttribute="top" id="5Dg-ab-hVd"/>
+                                    <constraint firstItem="Ael-Jm-aUi" firstAttribute="leading" secondItem="CP0-Ze-Axs" secondAttribute="leading" id="9yl-ui-H4L"/>
+                                    <constraint firstItem="Ael-Jm-aUi" firstAttribute="bottom" secondItem="CP0-Ze-Axs" secondAttribute="bottom" id="AM2-Yl-4N9"/>
+                                    <constraint firstItem="Ael-Jm-aUi" firstAttribute="trailing" secondItem="CP0-Ze-Axs" secondAttribute="trailing" id="L9a-NF-pLL"/>
+                                    <constraint firstAttribute="height" constant="128" id="NGk-ql-1YO"/>
+                                    <constraint firstAttribute="bottom" secondItem="CP0-Ze-Axs" secondAttribute="bottom" id="Xer-Xy-Zpz"/>
+                                    <constraint firstAttribute="trailing" secondItem="CP0-Ze-Axs" secondAttribute="trailing" id="e1G-lr-KGo"/>
+                                    <constraint firstItem="Ael-Jm-aUi" firstAttribute="top" secondItem="CP0-Ze-Axs" secondAttribute="top" id="fci-pk-0Ir"/>
+                                    <constraint firstItem="CP0-Ze-Axs" firstAttribute="leading" secondItem="Pe3-RR-pAg" secondAttribute="leading" id="qiB-pq-t0c"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zAf-03-i63">
+                                <rect key="frame" x="16" y="152" width="343" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_placeholer" translatesAutoresizingMaskIntoConstraints="NO" id="rhj-DV-i9H">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="120"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoJ-ob-jVb">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="120"/>
+                                        <connections>
+                                            <action selector="senderimageViewAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="T6P-ey-L4s"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_placeholer" translatesAutoresizingMaskIntoConstraints="NO" id="pcJ-W3-TVT">
+                                        <rect key="frame" x="175.5" y="0.0" width="167.5" height="120"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJU-sz-BYm">
+                                        <rect key="frame" x="175.5" y="0.0" width="167.5" height="120"/>
+                                        <connections>
+                                            <action selector="senderimageViewAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="8hL-lj-Rll"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LoJ-ob-jVb" firstAttribute="top" secondItem="rhj-DV-i9H" secondAttribute="top" id="0bN-uh-gIB"/>
+                                    <constraint firstAttribute="trailing" secondItem="pcJ-W3-TVT" secondAttribute="trailing" id="1Lu-CH-sFV"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="leading" secondItem="EJU-sz-BYm" secondAttribute="leading" id="CLY-Cu-T1E"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="leading" secondItem="rhj-DV-i9H" secondAttribute="trailing" constant="8" id="H61-k5-Cy2"/>
+                                    <constraint firstItem="LoJ-ob-jVb" firstAttribute="trailing" secondItem="rhj-DV-i9H" secondAttribute="trailing" id="Hsn-4B-cI8"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="width" secondItem="rhj-DV-i9H" secondAttribute="width" id="IlV-Lg-lxa"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="top" secondItem="zAf-03-i63" secondAttribute="top" id="Pi9-wN-APs"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="trailing" secondItem="EJU-sz-BYm" secondAttribute="trailing" id="T7G-NZ-YSp"/>
+                                    <constraint firstAttribute="bottom" secondItem="rhj-DV-i9H" secondAttribute="bottom" id="U4X-bN-w7b"/>
+                                    <constraint firstAttribute="bottom" secondItem="pcJ-W3-TVT" secondAttribute="bottom" id="Uy4-sU-uPo"/>
+                                    <constraint firstItem="LoJ-ob-jVb" firstAttribute="leading" secondItem="rhj-DV-i9H" secondAttribute="leading" id="Yz0-GS-FaC"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="top" secondItem="EJU-sz-BYm" secondAttribute="top" id="cUq-fE-Y66"/>
+                                    <constraint firstItem="pcJ-W3-TVT" firstAttribute="bottom" secondItem="EJU-sz-BYm" secondAttribute="bottom" id="d8Y-0C-S9P"/>
+                                    <constraint firstAttribute="height" constant="120" id="gap-qk-VUi"/>
+                                    <constraint firstItem="rhj-DV-i9H" firstAttribute="leading" secondItem="zAf-03-i63" secondAttribute="leading" id="ts7-OF-0Kg"/>
+                                    <constraint firstItem="rhj-DV-i9H" firstAttribute="top" secondItem="zAf-03-i63" secondAttribute="top" id="vD7-XE-41f"/>
+                                    <constraint firstItem="LoJ-ob-jVb" firstAttribute="bottom" secondItem="rhj-DV-i9H" secondAttribute="bottom" id="vaX-wU-Esc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.97647058819999999" blue="0.98431372549999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zAf-03-i63" firstAttribute="leading" secondItem="cFB-sr-xRc" secondAttribute="leading" constant="16" id="Aka-b9-aVm"/>
+                            <constraint firstItem="zAf-03-i63" firstAttribute="top" secondItem="Pe3-RR-pAg" secondAttribute="bottom" constant="8" id="Gzv-gu-5G5"/>
+                            <constraint firstItem="Pe3-RR-pAg" firstAttribute="top" secondItem="cFB-sr-xRc" secondAttribute="top" constant="16" id="WuY-oo-kfa"/>
+                            <constraint firstAttribute="trailing" secondItem="zAf-03-i63" secondAttribute="trailing" constant="16" id="Y4c-9a-4Ek"/>
+                            <constraint firstItem="Pe3-RR-pAg" firstAttribute="leading" secondItem="cFB-sr-xRc" secondAttribute="leading" constant="16" id="bFF-EM-4mY"/>
+                            <constraint firstAttribute="trailing" secondItem="Pe3-RR-pAg" secondAttribute="trailing" constant="16" id="bx2-nN-bK5"/>
+                            <constraint firstAttribute="bottom" secondItem="zAf-03-i63" secondAttribute="bottom" constant="8" id="cAR-hq-BED"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cFB-sr-xRc" secondAttribute="trailing" id="Fm9-oQ-Fm5"/>
+                <constraint firstItem="cFB-sr-xRc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NEv-Fa-SVS"/>
+                <constraint firstItem="cFB-sr-xRc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uk8-7z-5St"/>
+                <constraint firstAttribute="bottom" secondItem="cFB-sr-xRc" secondAttribute="bottom" id="zy7-hT-Kpw"/>
+            </constraints>
+            <connections>
+                <outlet property="leftBannerCSHeight" destination="gap-qk-VUi" id="zSg-Bm-sm8"/>
+                <outlet property="leftImageView" destination="rhj-DV-i9H" id="1eH-du-5YR"/>
+                <outlet property="rightImageView" destination="pcJ-W3-TVT" id="FWX-qx-kUE"/>
+                <outlet property="topBannerCSHeight" destination="NGk-ql-1YO" id="SIc-Gi-yN5"/>
+                <outlet property="topImageView" destination="CP0-Ze-Axs" id="iv0-FF-Dgh"/>
+            </connections>
+            <point key="canvasLocation" x="-148.55072463768118" y="89.732142857142847"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_placeholer" width="20" height="18"/>
+    </resources>
+</document>

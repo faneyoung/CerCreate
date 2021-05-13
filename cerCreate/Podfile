@@ -1,0 +1,88 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/aliyun/aliyun-specs.git'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'ZXSDSmile' do
+  
+#  pod 'SDWebImage'
+  pod 'MJRefresh'
+  #pod 'AFNetworking', '3.2.1'
+  pod 'AFNetworking/NSURLSession', '3.2.1'
+  pod 'AFNetworking/Reachability', '3.2.1'
+  pod 'AFNetworking/Security', '3.2.1'
+  pod 'AFNetworking/Serialization', '3.2.1'
+  
+  #UI
+  pod 'Masonry'
+  pod 'MBProgressHUD'
+  pod 'TPKeyboardAvoiding'
+  pod 'SAMKeychain'
+  pod 'CRBoxInputView', '1.1.7'
+  #图片预览
+  pod 'YBImageBrowser'
+  #YYKit
+  pod 'YYModel'
+  pod 'YYText'
+  pod 'YYCategories'
+  pod 'YYImage', :git => 'https://github.com/QiuYeHong90/YYImage.git'
+  
+  
+  pod 'EasyShowView'
+#  pod 'BlocksKit'
+  pod 'libextobjc', '~> 0.4.1'
+  
+  #分类界面
+  pod 'JXCategoryView'
+  pod 'JXPagingView/Pager'
+
+  
+  pod 'TYCyclePagerView', '~> 1.2.0'
+  pod 'CocoaLumberjack', '~> 3.6.2'
+  #弱定时器
+  pod 'MSWeakTimer'
+  #banner
+  pod 'SDCycleScrollView'
+
+  
+  #键盘管理
+  pod 'IQKeyboardManager'
+  pod 'EasyShowView'
+  
+  #性能统计
+  pod 'Bugly', '~> 2.5.71'
+  pod 'Bugtags'
+  pod 'BaiduMobStatCodeless' # 无埋点SDK
+  #pod 'MBCircularProgressBar', '~> 0.3.5'
+  
+  
+  #阿里活体识别SDK
+  pod 'AlicloudRPSDK', '3.6.0'
+  pod 'AliyunOSSiOS', '2.10.8'
+  pod 'AlicloudSGSecurityBody', '5.4.12987657-rp'
+  
+  
+  #push 无idfa版本
+  pod 'JCore', '2.4.0-noidfa'
+  pod 'JPush', '~> 3.3.6'
+  
+  #友盟统计
+  pod 'UMCCommon'
+  #友盟分享-微信
+  pod 'UMCShare/Social/WeChat'
+  # 集成QQ/QZone/TIM
+#  pod 'UMCShare/Social/QQ'
+  # 集成新浪微博
+  pod 'UMCShare/Social/Sina'
+
+#  record
+  pod 'MMWormhole', '~> 2.0.0'
+
+  pod 'UITextView+Placeholder'
+  
+  
+  
+  
+end

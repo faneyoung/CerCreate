@@ -1,0 +1,146 @@
+//
+//  ZXSDPrefixHeader.pch
+//  ZXSDSmile
+//
+//  Created by Jacques on 2020/6/2.
+//  Copyright © 2020 Smile Financial. All rights reserved.
+//
+
+#ifndef ZXSDPrefixHeader_pch
+#define ZXSDPrefixHeader_pch
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <libextobjc/extobjc.h>
+
+
+    #import "Masonry.h"
+    #import "AFHTTPSessionManager.h"
+    #import "MJRefresh.h"
+    #import "MBProgressHUD/MBProgressHUD.h"
+
+    #import "AppDelegate.h"
+    #import "AppInformation.h"
+    #import "ZXSDPublicClassMethod.h"
+    #import "ZXSDUserDefaultHelper.h"
+    #import "ZXSDGlobalObject.h"
+    #import "ZXSDCurrentUser.h"
+    #import "ZXSDNetworkFastConfig.h"
+
+    #import "NSString+Helper.h"
+    #import "NSArray+Helper.h"
+    #import "NSMutableArray+Helper.h"
+    #import "NSDictionary+Helper.h"
+    #import "ZXSDBaseTableViewCell.h"
+    #import "ZXSDWebViewController.h"
+
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+Addition.h"
+    #import "UILabel+Addition.h"
+    #import "ZXSDUIDefines.h"
+    #import <CocoaLumberjack/DDLog.h>
+
+#import "UIImageView+help.h"
+#import "UIView+help.h"
+#import "UIView+layout.h"
+#import "NSObject+ZXHelp.h"
+#import "UIView+BlocksKit.h"
+#import "UIControl+BlocksKit.h"
+#import "ZXUrlAndPathHeader.h"
+#import "ZXColorHeader.h"
+#import "ZXMacros.h"
+#import "NSDictionary+objectForKey.h"
+#import "NSMutableDictionary+SafeSetter.h"
+#import "AppUtility.h"
+#import "ZXLoadingManager.h"
+#import "URLRouter.h"
+#import "URLRouterHeader.h"
+#import "ZXAppTrackManager.h"
+
+
+
+
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+// 设置Log级别
+
+#ifdef DEBUG
+  static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+  static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+
+
+typedef NSString * ZXSDHomeUserApplyStatus NS_STRING_ENUM;
+
+// 上传身份证信息
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_IDCARD_UPLOAD;
+
+// 刷脸认证
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_PREPARE_FACE;
+
+//绑定银行卡信息
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_PREPARE_BANKCARD;
+
+//填写工作信息
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_PREPARE_JOB_INFO;
+
+//任务中心
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_TASK_CENTER;
+
+//提交风控审核
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_CALL_RISK;
+
+//风控审核中
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_RISK_DOING;
+
+//风控审核拒绝
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_RISK_REJECT;
+
+//雇主审核中
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_EMPLOYER_APPROVING;
+
+//雇主审核拒绝
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_EMPLOYER_REJECT;
+
+//预支中
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_DOING_ADVANCE;
+
+//能预支
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_CAN_ADVANCE;
+
+//不能预支
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_CAN_NOT_ADVANCED;
+
+// 立即还款(逾期)
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_OVERDUE_REPAY;
+
+// 立即还款
+FOUNDATION_EXPORT ZXSDHomeUserApplyStatus const ZXSDHomeUserApplyStatus_NORMAL_REPAY;
+
+//.............................................//
+
+//App启动时用户是否同意过相关协议
+static NSString *const USERACCEPTAGREEMENTVALUE = @"userAcceptAgreementValue";
+
+//上次App启动时的版本号, 用于显示引导页
+static NSString *const CURRENTAPPLICATIONVERSION = @"currentApplicationVersion";
+
+// 用户初次选择公司（选中‘其他’）
+static NSString *const USER_INITIAL_COMPANY_OTHER = @"USER_INITIAL_COMPANY_OTHER";
+
+//App在appstrore中的链接key
+static NSString *const APPSTOREUPDATEURL = @"AppStoreUpdateURL";
+
+//保持登录态的token、Session和UserID
+static NSString *const KEEPLOGINSTATUSTOKEN = @"keepLoginStatusToken";
+static NSString *const KEEPLOGINSTATUSSESSION = @"USER-SESSION";
+static NSString *const KEEPLOGINSTATUSUSERID = @"phone";
+
+#endif /* ZXSDPrefixHeader_pch */

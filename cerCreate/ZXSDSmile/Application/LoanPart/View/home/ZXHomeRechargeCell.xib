@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ZXHomeRechargeCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdM-pP-cAo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSf-LF-CFl">
+                                <rect key="frame" x="16" y="8" width="343" height="185"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CW-Cu-4Ew">
+                                <rect key="frame" x="16" y="8" width="343" height="185"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="特色充值" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egy-I2-Rtd">
+                                        <rect key="frame" x="16" y="16" width="68" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="0zd-H0-ACV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="17"/>
+                                        <color key="textColor" red="0.23529411759999999" green="0.27450980390000002" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-9d-ncV">
+                                        <rect key="frame" x="0.0" y="34" width="343" height="151"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="WY3-9d-ncV" firstAttribute="leading" secondItem="0CW-Cu-4Ew" secondAttribute="leading" id="24x-eQ-gzE"/>
+                                    <constraint firstItem="Egy-I2-Rtd" firstAttribute="leading" secondItem="0CW-Cu-4Ew" secondAttribute="leading" constant="16" id="3zy-9g-d8c"/>
+                                    <constraint firstItem="WY3-9d-ncV" firstAttribute="top" secondItem="Egy-I2-Rtd" secondAttribute="bottom" id="6Ra-aN-aFY"/>
+                                    <constraint firstAttribute="height" constant="185" id="8px-ib-de0"/>
+                                    <constraint firstAttribute="trailing" secondItem="WY3-9d-ncV" secondAttribute="trailing" id="Y5V-wT-tBQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="WY3-9d-ncV" secondAttribute="bottom" id="hB1-74-AGg"/>
+                                    <constraint firstItem="Egy-I2-Rtd" firstAttribute="top" secondItem="0CW-Cu-4Ew" secondAttribute="top" constant="16" id="ix0-DN-Yy0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lSf-LF-CFl" secondAttribute="trailing" constant="16" id="OKw-q5-ywO"/>
+                            <constraint firstItem="lSf-LF-CFl" firstAttribute="leading" secondItem="kdM-pP-cAo" secondAttribute="leading" constant="16" id="UKU-M7-AId"/>
+                            <constraint firstItem="lSf-LF-CFl" firstAttribute="top" secondItem="kdM-pP-cAo" secondAttribute="top" constant="8" id="XIh-p1-ceM"/>
+                            <constraint firstItem="0CW-Cu-4Ew" firstAttribute="leading" secondItem="kdM-pP-cAo" secondAttribute="leading" constant="16" id="aDN-oF-Iq3"/>
+                            <constraint firstAttribute="bottom" secondItem="lSf-LF-CFl" secondAttribute="bottom" constant="8" id="dej-BH-kgV"/>
+                            <constraint firstAttribute="bottom" secondItem="0CW-Cu-4Ew" secondAttribute="bottom" constant="8" id="l6L-uL-4X1"/>
+                            <constraint firstItem="0CW-Cu-4Ew" firstAttribute="top" secondItem="kdM-pP-cAo" secondAttribute="top" constant="8" id="wo9-Ir-0IG"/>
+                            <constraint firstAttribute="trailing" secondItem="0CW-Cu-4Ew" secondAttribute="trailing" constant="16" id="x85-FT-6Cm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="kdM-pP-cAo" secondAttribute="bottom" id="5FW-fb-O8o"/>
+                    <constraint firstItem="kdM-pP-cAo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BYP-gA-MoK"/>
+                    <constraint firstItem="kdM-pP-cAo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GV6-dt-20w"/>
+                    <constraint firstItem="kdM-pP-cAo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Hz2-QR-LOK"/>
+                    <constraint firstAttribute="bottom" secondItem="kdM-pP-cAo" secondAttribute="bottom" id="IPB-Sg-PNa"/>
+                    <constraint firstItem="kdM-pP-cAo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Y7z-mp-q3k"/>
+                    <constraint firstAttribute="trailing" secondItem="kdM-pP-cAo" secondAttribute="trailing" id="cOQ-pU-LEJ"/>
+                    <constraint firstAttribute="trailing" secondItem="kdM-pP-cAo" secondAttribute="trailing" id="exy-mp-pjH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="containerView" destination="0CW-Cu-4Ew" id="u2T-hB-sFq"/>
+                <outlet property="itemContainerView" destination="WY3-9d-ncV" id="Aho-DT-ESW"/>
+                <outlet property="shadowView" destination="lSf-LF-CFl" id="Fi5-Tf-1PY"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="94"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
